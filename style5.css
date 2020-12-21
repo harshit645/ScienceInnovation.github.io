@@ -1,0 +1,51 @@
+/* Navbar */
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .menu-bar{
+    background-image: linear-gradient(-90deg,#16222a,#3a6073);
+  }
+  
+  .nav-link{
+    font-size: 17px;
+    margin: 3px;
+    color: #fff!important;
+    font-weight: 500;
+  }
+  
+  .navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .menu-bar .navbar-toggler{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+  }
+  
+  .navbar .fas{
+    color: #fff!important;
+    font-size: 27px;
+  }
+  .nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .navbar-brand img{
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1000px){
+    .nav-link:hover{
+        border-bottom: none!important;
+    }
+  }
+  
+/* //Navbar// */
